@@ -25,11 +25,39 @@ __12:05__ to __01:00__
   - Login example
     - localStorage, sessionStorage
 
-## Links visited during class
-  - 
+## In-Class labs or assignments
 
-## Moved to next week
-Nothing yet.
+### Board game (revisited)
+
+#### Tic Tac Toe:
+  Ashkan, Sunny, Rupali, Sukhjeet, Jeggo, Hari Krishna, Shojol
+
+#### Snakes & Ladders:
+  Claude, Nina, Carlos, Sunmi, Patrick, Arath
+
+#### STEPS
+  1. Research the concepts quickly so that all members are familiar with the game rules
+  2. One person create a Github "organization", either `wddm-ttt` (tic-tac-toe) or `wddm-snl` (snakes-n-ladders)
+  3. Invite all members to join the organization
+  4. Create a repository called: `wddm-ttt.github.io` or `wddm-snl.github.io`
+      - initialize the repo with a README.md when you create it (it's a checkbox in the Github interface)
+  5. All members clone the repository to their local computer
+  6. Designate on person to create files/template: `index.html`, `css/style.css`, `js/script.js`
+  7. Distribute roles:
+      - HTML prototype (1 person)
+      - CSS styling, start with basics like fonts, colours, etc (1 person)
+      - Example dataset(s): Arrays & Objects (2 people)
+      - Basic JS experimentation (2 people)
+
+## Links visited during class
+Various links vistied in class, either planned or impromptu.
+  - [ECMAScript versions](https://en.wikipedia.org/wiki/ECMAScript)
+  - [ES6 syntax updates](http://es6-features.org/#Constants)
+  - [`typeof` variable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+  - [`throw` a browser error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
 ## Homework
+Nothing yet.
+
+## Next week
 Nothing yet.
