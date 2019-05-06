@@ -24,7 +24,7 @@ number[100] = 450;
 // Counted loop (run something x times)
 for ( let i = 0; i < number.length; i++ ) {
   if (number[i] != undefined)
-  console.log( number[i] );
+    console.log( number[i] );
 }
 
 number.forEach( i => {
@@ -38,4 +38,10 @@ while ( i < number.length ) {
   console.log( number[i] );
   i++;
 }
+
+i = 0;
+do {
+  console.log( number[i] );
+  i++;
+} while ( i < number.length )
 
