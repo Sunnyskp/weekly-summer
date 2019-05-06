@@ -55,6 +55,12 @@ Various links vistied in class, either planned or impromptu.
   - [ES6 syntax updates](http://es6-features.org/#Constants)
   - [`typeof` variable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
   - [`throw` a browser error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+  - I breifly mentioned hosting solutions (aside from GoDaddy) for web & database:
+      - [Amazon AWS](https://aws.amazon.com/)
+      - [Microsoft Azure](https://azure.microsoft.com/en-ca/)
+      - [Google Firebase (db)](https://firebase.google.com/)
+  - [Speed testing scripts](http://jsben.ch/)
+      - [Speed test we ran in class: Arrays iteration](http://jsben.ch/8RhPP)
 
 ## Homework
 Nothing yet.
