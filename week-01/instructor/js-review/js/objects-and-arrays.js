@@ -29,19 +29,19 @@ for ( let i = 0; i < number.length; i++ ) {
 
 number.forEach( i => {
   console.log( i );
-})
+});
 
 
 // Conditional Loops
-let i = 0;
-while ( i < number.length ) {
-  console.log( number[i] );
-  i++;
+let x = 0;
+while ( x < number.length ) {
+  console.log( number[x] );
+  x++;
 }
 
-i = 0;
+let y = 0;
 do {
-  console.log( number[i] );
-  i++;
-} while ( i < number.length )
+  console.log( number[y] );
+  y++;
+} while ( y < number.length )
 
