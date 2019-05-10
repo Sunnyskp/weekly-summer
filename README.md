@@ -3,10 +3,10 @@
 ## Course Links
 
 ### Blackboard:
-- [Web Application Programming, WDDM-120](https://learn.humber.ca/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_130334_1 "WDDM-120" target="_blank") (use this one)
-- [Web Application Design, WDDM-121](https://learn.humber.ca/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_130335_1 target="_blank")
+- [Web Application Programming, WDDM-120](https://learn.humber.ca/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_130334_1) (use this one)
+- [Web Application Design, WDDM-121](https://learn.humber.ca/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_130335_1)
 ### Slack
-- [wddm2019.slack.com](https://wddm2019.slack.com target="_blank")
+- [wddm2019.slack.com](https://wddm2019.slack.com)
 
 
 ## Outline
