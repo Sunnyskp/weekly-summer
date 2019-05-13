@@ -154,7 +154,7 @@ const doTurn = (sq) => {
 
 }
 
-
+// Add an event listener to the board (1 listener for the whole board)
 theBoard.addEventListener(`click`, event => {
   // Which spot did we click?
   console.log("Something was clicked", event);
