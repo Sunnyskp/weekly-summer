@@ -1,26 +1,3 @@
-// # TIC TAC TOE
-
-// OVERVIEW: What does our game need to do? 
-//   1. Let's define our functionality
-//   2. Determine what variables are needed to store
-//   3. Code a prototype
-
-// FUNCTIONALITY
-
-// START OF APPLICATION
-// - Draw the board
-// - Determine who goes first
-
-// EACH TURN (LOOPS)
-// - Select a box
-// - Check for winner (or "cats game")
-// - Change turn
-
-// END OF APPLICATION
-// - Display winner
-// - Increase score
-// - Go back to the start
-
 const board = [
   null, null, null,
   null, null, null,
@@ -87,7 +64,7 @@ const changeUserTurn = (currTurn) => {
     else if (currTurn == `O`)
       return `X`;
     else
-      return false;
+      return false;  // would argue this isn't useful if our users were more dynamic
 }
 
 // checkBoard(): checks to see if anyone won (or if it's "cats game")
