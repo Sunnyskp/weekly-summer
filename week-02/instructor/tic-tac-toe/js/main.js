@@ -13,7 +13,7 @@
 
 // EACH TURN (LOOPS)
 // - Select a box
-// - Check for winner
+// - Check for winner (or "cats game")
 // - Change turn
 
 // END OF APPLICATION
@@ -88,30 +88,45 @@ const changeUserTurn = (currTurn) => {
       return `X`;
     else
       return false;
+}
+
+// checkBoard(): checks to see if anyone won (or if it's "cats game")
+const checkBoard = () => {
+  /* Winning scenarios:
+      [0, 1, 2]
+      [3, 4, 5]
+      [6, 7, 8]
+      [0, 3, 6]
+      [1, 4, 7]
+      [2, 5, 8]
+      [0, 4, 8]
+      [2, 4, 6]  */
+}
+
+const gameOver = () => {
 
 }
 
-// checkWinner(): checks to see if anyone won
-const checkWinner = () => {
-
-}
 
 // doTurn(): when a user selects a spot
 const doTurn = () => {
   // 1. selectSquare
-  // 2. checkWinner
-  // 3. changeUserTurn
+  // 2. checkBoard
+    // If winner or cats: gameOver()
+    // If no winner: changeUserTurn() and doTurn()
 }
 
 
-// Test cases
+
+
+// Start the application
+drawTheBoard(board);
+
+
+// Simple test cases:
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 4, board);
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 2, board);
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 8, board);
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 0, board);
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 2, board);
 // whosTurnIsIt = selectSquare(whosTurnIsIt, 5, board);
-
-
-// Start the application
-drawTheBoard(board);
