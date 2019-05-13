@@ -1,8 +1,9 @@
 # Week 01
-Date: Monday, May 6th, 2019
-Location: Humber, North Campus
+**Date**: Monday, May 6th, 2019
+**Location**: Humber, North Campus
 
 ## Schedule 
+**Today's schedule**
 
 ### Morning
   - Review of basic JS concept
@@ -26,6 +27,7 @@ __12:05__ to __01:00__
     - localStorage, sessionStorage
 
 ## In-Class labs or assignments
+**Work assigned to students in class**
 
 ### Board game (revisited)
 
