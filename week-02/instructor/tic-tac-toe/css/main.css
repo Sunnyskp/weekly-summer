@@ -1,4 +1,4 @@
-.heading {
+.heading, .msg {
   font: 2em monospace;
   margin: 1em 0;
   padding: 0 1em;
@@ -20,6 +20,8 @@
   place-content: center;
   font: 5em monospace;
 }
+
+
 @media screen and (orientation:landscape) {
   .board {
     --orient: 1vh;
