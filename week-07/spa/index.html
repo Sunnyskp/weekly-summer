@@ -12,7 +12,8 @@
   <body>
 
     <h1>WDDM Weather</h1>
-    <form id="weather" action="result.html">
+
+    <form id="weather" class="page index">
       <label for="city">City:</label>
       <input type="text" name="city" id="city" required>
 
@@ -27,6 +28,19 @@
       <input type="submit" id="submit" value="Go Get Weather">
     </form>
 
-    <!-- <script src="js/main.js"></script> -->
+
+    <div class="page loading">
+      <div>loading...</div>
+    </div>
+
+
+    <article class="page result">
+      <button id="back">Back to search</button>
+      <div class="cityname" id="cityname">Toronto</div>
+      <div class="temp">20&deg;C</div>
+    </article>
+
+
+    <script src="js/main.js"></script>
   </body>
 </html>

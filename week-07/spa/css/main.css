@@ -1,0 +1,15 @@
+.page {
+  display: none;
+}
+.page.index {
+  background-color: gold;
+}
+.page.result {
+  background-color: lightgreen;
+}
+.page.loading {
+  background-color: lightblue;
+}
+.page.current {
+  display: block;
+}
