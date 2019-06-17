@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <h1>WDDM Weather</h1>
+    <form id="weather" action="result.html">
+      <label for="city">City:</label>
+      <input type="text" name="city" id="city" required>
+
+      <select name="format" id="format">
+        <option value="c" default>Celc</option>
+        <option value="f">Far</option>
+      </select>
+
+      <input type="checkbox" name="save" id="save" value="true" checked>
+      <label for="save">Save my location</label>
+
+      <input type="submit" id="submit" value="Go Get Weather">
+    </form>
+
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
